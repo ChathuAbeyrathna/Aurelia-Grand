@@ -30,7 +30,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/Aurelia-Grand/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
