@@ -1,0 +1,1 @@
+import{y as n}from"./index-B3xhaxGw.js";const e=n({ids:new Set});function a(){function t(s){e.ids.has(s)?e.ids.delete(s):e.ids.add(s)}function i(s){return e.ids.has(s)}return{toggle:t,isSaved:i,count:()=>e.ids.size}}export{a as u};
